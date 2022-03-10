@@ -4,6 +4,7 @@ s = int(sys.argv[1])
 S=[]
 T=[]
 
+##Input Key
 k = [3,1,4,1,5]
 ##Intialze T
 for i in range(0,s):
@@ -33,7 +34,9 @@ print("Stream Genration")
 
 j = 0
 i = 0
+
 PT=[6,1,5,4]
+
 ks=[]
 for h in PT:
     i = (i+1) % s
